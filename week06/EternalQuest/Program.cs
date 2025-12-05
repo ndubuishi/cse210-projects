@@ -1,9 +1,11 @@
-using System;
-
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        Console.Clear();
+        Console.WriteLine("Welcome to Eternal Quest - Your Journey to Exaltation Through Gamification!\n");
+
+        GoalManager manager = new GoalManager();
+        manager.Start();
     }
 }
